@@ -1,0 +1,21 @@
+<script>
+    var hostCurrent = document.location.hostname;
+    var links = document.querySelectorAll(`a`);
+
+    links.forEach(function(link) {
+        link.href = `${link.href}?ref=${hostCurrent}`;
+    });
+</script>
+
+<button type="button" refs="menu-apps-toggle@toggle" title="Expandir Todos Apps da <.dev/>" aria-expanded="false" class="mobile-menu-toggle hide-over-l"  id="btnHeaderApps">
+    <i class="zmdi zmdi-apps"></i> Apps
+</button>
+
+<nav refs="menu-apps-toggle@menu" class="header-links menuApps">
+    <div class="links text-center">
+        <a href="https://blog.ecossistema.dev/" target="_blank"><i class="zmdi zmdi-view-web"></i> Blog</a>
+        <a href="https://empregos.dev/" target="_blank"><i class="zmdi zmdi-search-in-file"></i> Empregos</a>
+        <a href="https://estagios.dev/" target="_blank"><i class="zmdi zmdi-search-in-file"></i> Estágios</a>
+        <a href="https://docapi.dev/" target="_blank"><i class="zmdi zmdi-code"></i> Apis</a>
+    </div>
+</nav>
