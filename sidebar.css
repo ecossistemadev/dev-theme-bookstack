@@ -1,0 +1,52 @@
+/* ----------- hiding sidebar stuff ----------- */
+.tri-layout-left-contents h5 {
+    display: none;
+}
+
+.tri-layout-right-contents h5 {
+    display: none;
+}
+
+.activity-list {
+    display: none;
+}
+
+.tri-layout-right-contents .text-muted {
+    display: none;
+}
+
+#new {
+    display: none;
+}
+
+#popular {
+    display: none;
+}
+
+#recently-updated-pages {
+    display: none;
+}
+
+#page-details>div>div {
+    display: none;
+}
+
+#sidebar>aside>div:nth-child(2) {
+    display: none;
+}
+
+#main-content div.grid-card-footer.text-muted {
+    display: none;
+}
+
+#main-content div.list-sort-container {
+    display: none;
+}
+
+#header>div>div.text-right {
+    display: none;
+}
+
+.button {
+    color: #000;
+}
