@@ -1,5 +1,9 @@
-  /* Custom */
+/* Custom */
 
-  .zmdi {
-      margin-inline-end: 6px;
-  }
+.zmdi {
+  margin-inline-end: 6px;
+}
+
+.d-none {
+  display: none;
+}
