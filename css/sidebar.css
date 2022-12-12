@@ -1,4 +1,8 @@
 /* ----------- hiding sidebar stuff ----------- */
+.tri-layout-mobile-tabs{
+    display: none!important;
+}
+
 .tri-layout-left-contents h5 {
     display: none;
 }
