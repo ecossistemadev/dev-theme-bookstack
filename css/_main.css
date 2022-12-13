@@ -5,3 +5,17 @@
 @import "video.css";
 @import "titles.css";
 @import "custom.css";
+
+:root {
+    --color-primary: #90caf9;
+    --color-primary-light: rgba(144,202,249,0.15);
+    --color-page: #206ea7;
+    --color-page-draft: #7e50b1;
+    --color-chapter: #af4d0d;
+    --color-book: #077b70;
+    --color-bookshelf: #a94747;
+    --bs-primary: #90caf9;
+    --bs-primary-rgb: 144, 202, 249;
+    --bs-secondary: #206ea7;
+    --bs-secondary-rgb: 32, 110, 167;
+}
