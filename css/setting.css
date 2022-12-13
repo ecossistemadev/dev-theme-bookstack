@@ -1,0 +1,3 @@
+.setting-list>div:first-child {
+  display: none !important;
+}
